@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GMSBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GMSBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMSBL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GMSBL/1.0.0": {
+      "type": "project",
+      "path": "../GMSBL/GMSBL.csproj",
+      "msbuildProject": "../GMSBL/GMSBL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GMSBL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GOKUL REDDY\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#\\GMS\\GMS\\GMSAPP\\GMSAPP.csproj",
+      "projectName": "GMSAPP",
+      "projectPath": "D:\\C#\\GMS\\GMS\\GMSAPP\\GMSAPP.csproj",
+      "packagesPath": "C:\\Users\\GOKUL REDDY\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\GMS\\GMS\\GMSAPP\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\GOKUL REDDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\C#\\GMS\\GMS\\GMSBL\\GMSBL.csproj": {
+              "projectPath": "D:\\C#\\GMS\\GMS\\GMSBL\\GMSBL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
